@@ -1,0 +1,152 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  margin: 0px;
+  text-align: center;
+}
+
+/*Header section*/
+
+header {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 10;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  min-height: 69px;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  flex-grow: 1;
+}
+
+.logo img {
+  height: 50px;
+}
+
+a {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-decoration: underline;
+}
+
+nav {
+  display: inline-block;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+/*Content section*/
+
+.maincontent {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.missioncontent {
+  display: flex;
+  background-image: url("../images/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  padding-top: 70px;
+}
+
+#mission {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+.featuredcontent {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  padding-top: 70px;
+  margin: 0 auto 0 auto;
+}
+
+#featured {
+  text-align: center;
+}
+
+.teas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.photo img{
+  display: block;
+  height: 200px;
+  width: 300px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+}
+
+.locationscontent {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  padding-top: 70px;
+  opacity: 1.0;
+  align-items: center;
+  align-content: center;
+  align-self: center;
+
+}
+
+#locations {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+  padding-bottom: 15px;
+}
+
+.boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 1100px;
+  margin: 50px;
+  background-color: transparent;
+}
+
+.box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0px 20px;
+}
+
+#copyright {
+  text-align: left;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 20px;
+}
